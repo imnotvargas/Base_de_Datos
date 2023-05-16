@@ -53,7 +53,7 @@ Tienda de informática
 
 
 https://www.db-fiddle.com/f/krGhupTAdypTqm63N3Pwvs/0 
-
+https://www.db-fiddle.com/f/krGhupTAdypTqm63N3Pwvs/1
 Modelo entidad/relación
 
 
