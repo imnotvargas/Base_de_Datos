@@ -25,3 +25,49 @@ producto más caro del fabricante Lenovo. (Sin utilizar INNER JOIN).
 
 
 3. Lista el nombre del producto más caro del fabricante Lenovo.
+
+------------------------------------------------
+
+/* 1°=
+USE tiendita;
+SELECT nombre_producto, precio_producto
+FROM producto;
+*/
+
+
+/* 2°=
+USE tiendita;
+SELECT *
+FROM producto;
+*/
+
+
+/* 3°=
+USE tiendita;
+SELECT nombre_producto, precio_producto, nombre_fab
+FROM producto INNER JOIN fabricante ON fabricante.codigo=producto.codigo1;
+*/
+
+
+#CONSULTAS CON WHERE
+/* 4°= 
+USE tiendita;
+SELECT nombre_producto 
+FROM producto
+WHERE codigo1='6';
+*/
+
+
+/* 5°=*/
+
+                       
+
+/* 6°=
+USE tiendita;
+SELECT nombre_producto AS articulo_mas_caro_de_lenovo, precio_producto
+FROM producto
+WHERE codigo1=6
+AND precio_producto = (SELECT MAX(precio_producto)
+                       FROM producto
+                       WHERE codigo1=6);
+                       */
