@@ -4,21 +4,44 @@ Objetivo: Demostrar la correcta identificación de los conceptos del lenguaje SQ
 Ejercicio:
 
 1. Menciona los comandos DMl: (valor .85)
+SELECT
+USE
+DROP
+ALTER
+INSERT
+UPDATE
+DELETE
+ALTER
 
 2. Menciona 3 tipos de datos que existen: (valor .85)
-
+-Logios
+-Compracion
+-Agregado
 
 3. ¿Qué diferencia existe entre TRUNCATE y DELETE?(valor .85)
 
+R=En una tabla TRUNCATE nos sirve para eliminar datos mas no la tabla y DELETE elimina todo el contendio incluyendo la tabla
+
+
 4. ¿Para qué se utiliza el atributo UNIQUE?(valor .85)
+5. 
+ R= Para hacer un vaor unico, es decif que no se pueda repetir 
+
 
 5. ¿Qué diferencia hay entre los tipos de datos VARCHAR y CHAR? (valor .85)
+
+R= CHAR es un dato especifico de caracteres y VARCHAR 
 
 
 6. Defina brevemente el significado de las siglas SQL(valor .85)
 
+R= Lenguaje de consulta estrucutrada 
+
 
 7. Defina brevemente qué es MySQL WorkBench (valor .85)
+
+R= Es un sistema de administracion de base de datos
+
 
 ## Práctica 5.
 ### Gestores de base de datos
@@ -36,6 +59,9 @@ En un mapa conceptual presenta 3 gestores de bases de datos, sus característica
 principales, las ventajas y desventajas. (valor 6)
 
 ![image](https://user-images.githubusercontent.com/91554777/170415427-e2b7321b-a97f-43b0-ac24-6e506c307e6b.png)
+
+R= ![image](https://github.com/imnotvargas/Base_de_Datos/assets/125502308/451f82da-b323-4c5e-a502-6af8d2a08131)
+
 
 ## Práctica 6.
 ### Herramienta en línea y ejercicio necesarios para realizar las prácticas
